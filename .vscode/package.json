@@ -4,8 +4,8 @@
     "description": "My personal portfolio website",
     "main": "index.js",
     "scripts": {
-      "start": "your-start-command",
-      "build": "your-build-command",
+      "start": "live-server --port=8080",
+      "build": "echo 'No build step specified'",
       "predeploy": "npm run build",
       "deploy": "gh-pages -d build"
     },
@@ -24,3 +24,4 @@
       "gh-pages": "^4.0.0"
     }
   }
+  
