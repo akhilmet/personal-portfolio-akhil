@@ -17,7 +17,7 @@ body, html {
 
 header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    padding: 60px 20px;
+    padding: 80px 20px;  /* Increased padding for more space */
     text-align: center;
     box-shadow: 0 4px 6px var(--shadow-color);
 }
@@ -39,6 +39,10 @@ header {
     font-size: 1.2em;
     line-height: 1.8;
     margin-bottom: 25px;
+}
+
+.header-cta {
+    margin-bottom: 30px;  /* Added margin for spacing */
 }
 
 .header-icons {
@@ -286,12 +290,41 @@ h2::after {
     left: -200px;
 }
 
+.university-logo {
+    width: 60px;  /* Adjusted size */
+    height: auto;
+    margin: 0 auto 10px;
+    display: block;  /* Centered */
+}
+
 footer {
     background: var(--secondary-color);
     color: var(--text-color);
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+}
+
+.get-in-touch {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;  /* Added margin for spacing */
+}
+
+.get-in-touch.bottom {
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-in-touch.bottom .icon {
+    margin-bottom: 20px;
+}
+
+.get-in-touch.bottom a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
 }
 
 @media (max-width: 768px) {
