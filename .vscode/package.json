@@ -1,0 +1,26 @@
+{
+    "name": "personal-portfolio-akhil",
+    "version": "1.0.0",
+    "description": "My personal portfolio website",
+    "main": "index.js",
+    "scripts": {
+      "start": "your-start-command",
+      "build": "your-build-command",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/akhilmet/personal-portfolio-akhil.git"
+    },
+    "keywords": [
+      "portfolio",
+      "personal",
+      "website"
+    ],
+    "author": "Akhil Metukuru",
+    "license": "ISC",
+    "devDependencies": {
+      "gh-pages": "^4.0.0"
+    }
+  }
